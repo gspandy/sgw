@@ -1,0 +1,16 @@
+description = "sgw-channel"
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: "idea"
+
+
+dependencies {
+    compile(project(':sgw-engine'))
+    compile("org.codehaus.groovy:groovy-all:2.4.12")
+    compile("commons-codec:commons-codec")
+    compile("com.alibaba:fastjson:1.2.41")
+    compile'joda-time:joda-time:2.9.9'
+    compile("com.fasterxml.jackson.core:jackson-databind")
+    compile(files("zaOpenapiSdk.jar"))
+}

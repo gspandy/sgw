@@ -1,0 +1,6 @@
+description = "sgw-client"
+
+dependencies {
+    compile(project(":sgw-engine"))
+    compile group: 'com.alibaba', name: 'dubbo', version: '2.6.0'
+}
