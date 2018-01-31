@@ -1,0 +1,29 @@
+
+
+subprojects  {
+    group = "cn.wanglin.sgw"
+//    定义统一的依赖基线
+
+    apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: "idea"
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+
+    repositories {
+        maven { url 'http://maven.aliyun.com/mvn/repository/' }
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies{
+        testCompile 'junit:junit:4.12'
+        testCompile 'org.mockito:mockito-core:2.7.19'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
