@@ -14,7 +14,7 @@ class LianlianTest {
 
     @Before
     public void setup() {
-        channel.config = new ChannelConfig(protocol: ProtocolType.HTTPS,
+        channel.config = new ChannelConfig(protocol: ProtocolType.HTTP,
                 reqEntityType: EntityType.JSON,
                 url: "https://yintong.com.cn/traderapi/bankcardbind.htm");
         ProtocolFactory protocolFactory = mock(ProtocolFactory.class)

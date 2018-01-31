@@ -19,7 +19,7 @@ class HairerTest {
                 reqEntityType:EntityType.TEXT,
                 url: "http://testpm.haiercash.com/PaymentPlatform/api/HaiercashPayApply",
                 attributes: [
-                        "privateKey" : "MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAuSL8Pk66MyQ87paDb02VblGOzw7b9hUwFJ4/JMi4kKLyvrR/hTd4Zm/ym75hpNfDuAJCBYpKnBq+swNvHsDBuQIDAQABAkAfCNhT8YqRDCAStrRtsgm8pntUBl+lDsQykJxxJBycUgtLK2VmdcHm/jWiJ4Ghn1JNXdNVHrxxguU0PigWVN7pAiEA6PQmY2RxB1khNemierWFwA1KPZ4E9aJlB0VFB9QAcuMCIQDLc868xyx/Y4YWxjc3rLMv4Pa7HqEeWU/GdJwMTuBvswIhALyDz4kBYEKNC0Ygsn7Q5NLdLmYcuXC6IT23/bvvAQn3AiAQRryEV77Ulia1Dbh/KL7RFsNGZwXmwqhiLRQK3AiShwIgH1iq8ie+zLgE/IBb5hhqzxV0stXscNndqwjz1tSw7WA="
+                        "privateKey" : "1"
                 ]);
         ;
         ProtocolFactory protocolFactory = mock(ProtocolFactory.class)

@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gradle/
 .idea/
+*.iml
 sgw-channel/build/
 sgw-channel/out/
 sgw-client/build/
@@ -9,3 +10,4 @@ sgw-engine/build/
 sgw-engine/out/ /
 sgw-service/build/
 sgw-service/out/
+

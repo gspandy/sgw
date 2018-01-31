@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sgw.iml" filepath="$PROJECT_DIR$/sgw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel.iml" group="sgw-channel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_main.iml" group="sgw-channel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_test.iml" group="sgw-channel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client.iml" group="sgw-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_main.iml" group="sgw-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_test.iml" group="sgw-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine.iml" group="sgw-engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_main.iml" group="sgw-engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_test.iml" group="sgw-engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service.iml" group="sgw-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_main.iml" group="sgw-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_test.iml" group="sgw-service" />
+    </modules>
+  </component>
+</project>

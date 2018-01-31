@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="sgw-channel_main" target="1.8" />
+      <module name="sgw-channel_test" target="1.8" />
+      <module name="sgw-client_main" target="1.8" />
+      <module name="sgw-client_test" target="1.8" />
+      <module name="sgw-engine_main" target="1.8" />
+      <module name="sgw-engine_test" target="1.8" />
+      <module name="sgw-service_main" target="1.8" />
+      <module name="sgw-service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
