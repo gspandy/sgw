@@ -2,5 +2,5 @@ description = "sgw-exchange-client"
 
 dependencies {
     compile(project(":sgw-exchange-framework"))
-    compile group: 'com.alibaba', name: 'dubbo', version: '2.6.0'
+    compile  group: 'com.alibaba', name: 'dubbo', version: '2.6.0'
 }

@@ -9,3 +9,12 @@ repositories {
     mavenLocal()
     mavenCentral()
 }
+
+
+dependencies {
+    compile(project(":sgw-route-client"))
+    compile(project(":sgw-flow-client"))
+    compile(project(":sgw-exchange-client")){
+        exclude group: '*', module: '*'
+    }
+}

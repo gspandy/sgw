@@ -9,3 +9,7 @@ repositories {
     mavenLocal()
     mavenCentral()
 }
+
+dependencies {
+    compile ("org.springframework:spring-beans:4.3.12.RELEASE")
+}
