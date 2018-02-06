@@ -19,11 +19,11 @@ payservice.pay(62251112xxxxxx,6335xxxxxx,10)
 //这里的信息可以抽象为:biz/业务,request/业务请求
 ``` 
 ```groovy
-Channel channel = RouteProviderFactory.get(biz).route(request,context)
+Exchanger exchanger = RouteProviderFactory.get(biz).route(request,context)
 //
 ```   
 ```groovy
-   String zigzagCode = channelService.getZigzagCodeof(biz,channel)
+   String zigzagCode = exchangerService.getZigzagCodeof(biz,exchanger)
    //下面是任务触发和流程引擎
    execute(zigzagCode,request)/
        scheduler(execute(zigzagCode,request))/

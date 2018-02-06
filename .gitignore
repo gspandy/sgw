@@ -2,12 +2,12 @@
 .gradle/
 .idea/
 *.iml
-sgw-channel/build/
-sgw-channel/out/
-sgw-client/build/
-sgw-client/out/
-sgw-engine/build/
-sgw-engine/out/ /
-sgw-service/build/
-sgw-service/out/
+sgw-exchange-channel/build/
+sgw-exchange-channel/out/
+sgw-exchange-client/build/
+sgw-exchange-client/out/
+sgw-exchange-core/build/
+sgw-exchange-core/out/
+sgw-exchange-server/build/
+sgw-exchange-server/out/
 
