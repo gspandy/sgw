@@ -1,4 +1,4 @@
-description = "sgw-exchange-core"
+description = "sgw-exchange-framework"
 
 apply plugin: 'java'
 apply plugin: 'groovy'

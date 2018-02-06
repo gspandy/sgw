@@ -1,0 +1,11 @@
+description = "sgw-flow-client"
+
+apply plugin: 'java'
+
+group = "cn.wanglin.sgw"
+version = "1.0.0-snapshot"
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}

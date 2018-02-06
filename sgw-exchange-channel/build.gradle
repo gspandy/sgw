@@ -6,7 +6,7 @@ apply plugin: "idea"
 
 
 dependencies {
-    compile(project(':sgw-exchange-core'))
+    compile(project(':sgw-exchange-framework'))
     compile("org.codehaus.groovy:groovy-all:2.4.12")
     compile("commons-codec:commons-codec")
     compile("com.alibaba:fastjson:1.2.41")

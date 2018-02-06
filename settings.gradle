@@ -1,4 +1,16 @@
+include "sgw-client"
+include "sgw-route-client"
+include "sgw-route-framework"
+include "sgw-route-server"
+
+include "sgw-flow-client"
+//流程引擎
+include "sgw-flow-engine"
+//流程定义服务等
+include "sgw-flow-server"
 include "sgw-exchange-channel"
 include "sgw-exchange-client"
-include "sgw-exchange-core"
+include "sgw-exchange-framework"
 include "sgw-exchange-server"
+include 'sgw-flow-engine'
+
