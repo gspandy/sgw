@@ -1,7 +1,7 @@
 package cn.wanglin.sgw.exchange.alipay
 
 import cn.wanglin.sgw.exchange.Parser
-import cn.wanglin.sgw.exchange.SGWResponse
+import cn.wanglin.sgw.exchange.ExgResponse
 import cn.wanglin.sgw.exchange.exception.ParseException
 import cn.wanglin.sgw.exchange.exception.ServerException
 import cn.wanglin.sgw.exchange.exception.SignatureException
@@ -53,11 +53,11 @@ class Single_Trade_QueryParser extends Parser<String> {
      "</alipay>";
      **/
     @Override
-    SGWResponse parse(String exchangerResult) throws SignatureException, ParseException, ServerException {
+    ExgResponse parse(String exchangerResult) throws SignatureException, ParseException, ServerException {
         def xml = new XmlSlurper().parseText(exchangerResult);
         if (xml.is_success.text().equals("F")) {
             throw new ServerException(xml.error.text());
-            return new SGWResponse(false,xml.error.text())
+            return new ExgResponse(false,xml.error.text())
         } else {
             Map<String,Object> result = new HashMap<>();
             result.trade_no = xml.request.param.trade_no.text();
@@ -77,7 +77,7 @@ class Single_Trade_QueryParser extends Parser<String> {
             result.trade_no = xml.response.trade.trade_no.text();
             result.trade_status = xml.response.trade.trade_status.text();
             result.use_coupon = xml.response.trade.use_coupon.text();
-            return new SGWResponse(result);
+            return new ExgResponse(result);
         }
     }
 

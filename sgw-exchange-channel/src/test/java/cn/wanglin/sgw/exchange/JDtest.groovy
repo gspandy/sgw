@@ -20,7 +20,7 @@ public class JDtest {
         exchanger.config = new ExchangerConfig(protocol: ProtocolType.HTTP,
                 url: "https://wapi.jd.com/express.htm",
                 certPassword: "chinabank",
-                certFile: "D:\\project\\simplegateway\\sgw-exchanger\\src\\main\\resources\\quick.keystore",
+                certFile: "D:\\project\\sgw\\sgw-exchange-channel\\src\\main\\resources\\quick.keystore",
                 attributes: [
                         "VERSION" : ApiConstant.version,
                         "MERCHANT": ApiConstant.merchant,

@@ -57,7 +57,7 @@ public class Exchanger<REQ, RSP> {
      * @throws TimeoutException
      * @throws InterruptedException 发送异常。无论是TimeoutException还是InterruptedException不代表发送失败。建议通过业务结果去检查发送情况。
      */
-    SGWResponse getResult(String exchangerSequenceId) throws TimeoutException, IOException, SignatureException, ParseException, ServerException {
+    ExgResponse getResult(String exchangerSequenceId) throws TimeoutException, IOException, SignatureException, ParseException, ServerException {
         if (!config.sync) {
             CountDownLatch countDownLatch = new CountDownLatch(1);
             try {

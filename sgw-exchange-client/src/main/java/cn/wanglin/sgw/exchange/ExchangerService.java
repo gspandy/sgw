@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Map;
 
 
-public class GatewayService {
+public class ExchangerService {
     ExchangerConfigLoader exchangerConfigLoader;
     ExchangerEngine engine = new ExchangerEngine();
 
@@ -27,7 +27,7 @@ public class GatewayService {
      * @throws ServerException    服务器内部错误
      */
     @SuppressWarnings("unchecked")
-    public SGWResponse sync(String exchangerCode, String exchangerSequenceId, Map<String, Object> exchangerRequest)
+    public ExgResponse sync(String exchangerCode, String exchangerSequenceId, Map<String, Object> exchangerRequest)
             throws TimeoutException, IOException, SignatureException, ParseException, ServerException {
         return getExchanger(exchangerCode)
                 .send(exchangerSequenceId, exchangerRequest)

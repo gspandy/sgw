@@ -1,7 +1,7 @@
 package cn.wanglin.sgw.exchange.jd
 
 import cn.wanglin.sgw.exchange.Parser
-import cn.wanglin.sgw.exchange.SGWResponse
+import cn.wanglin.sgw.exchange.ExgResponse
 import cn.wanglin.sgw.exchange.exception.ParseException
 import cn.wanglin.sgw.exchange.exception.ServerException
 import cn.wanglin.sgw.exchange.exception.SignatureException
@@ -20,7 +20,7 @@ public abstract class JDParser extends Parser<String> {
     static Map<String, String> dict = new HashMap<>();
 
     @Override
-    SGWResponse parse(String exchangerResult) throws SignatureException, ParseException, ServerException {
+    ExgResponse parse(String exchangerResult) throws SignatureException, ParseException, ServerException {
         String resp = null;
         if(null == exchangerResult){
             throw IOException("返回值为空");
@@ -40,7 +40,7 @@ public abstract class JDParser extends Parser<String> {
         return trade(dataxml);
     }
 
-    abstract SGWResponse trade(String xml);
+    abstract ExgResponse trade(String xml);
 
 
 

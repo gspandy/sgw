@@ -11,7 +11,9 @@ repositories {
 }
 
 dependencies {
+    compile("org.slf4j:slf4j-api:1.7.25")
     compile ("org.springframework:spring-context:4.3.12.RELEASE")
     testCompile ("org.springframework:spring-test:4.3.12.RELEASE")
+    testCompile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
 
 }

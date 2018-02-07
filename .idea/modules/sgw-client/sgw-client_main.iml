@@ -17,6 +17,7 @@
     <orderEntry type="module" module-name="sgw-route-client_main" />
     <orderEntry type="module" module-name="sgw-flow-client_main" />
     <orderEntry type="module" module-name="sgw-exchange-client_main" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.12.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.12.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.12.RELEASE" level="project" />

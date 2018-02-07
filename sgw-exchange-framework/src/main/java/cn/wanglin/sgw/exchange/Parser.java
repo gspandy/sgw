@@ -8,7 +8,7 @@ public abstract class Parser<RSP> {
     protected ExchangerConfig exchangerConfig;
 
 
-    public abstract SGWResponse parse(RSP exchangerResult) throws SignatureException,ParseException,ServerException;
+    public abstract ExgResponse parse(RSP exchangerResult) throws SignatureException,ParseException,ServerException;
 
     public ExchangerConfig getExchangerConfig() {
         return exchangerConfig;

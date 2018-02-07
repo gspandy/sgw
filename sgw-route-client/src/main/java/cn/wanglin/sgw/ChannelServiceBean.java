@@ -4,6 +4,10 @@ import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.interceptor.ExposeInvocationInterceptor;
 import org.springframework.beans.factory.FactoryBean;
 
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
 public class ChannelServiceBean<T extends ChannelService> implements   FactoryBean<T> {
     ClassLoader classLoader;
     Class<T> clz;
@@ -16,16 +20,9 @@ public class ChannelServiceBean<T extends ChannelService> implements   FactoryBe
 
     @Override
     public T getObject() throws Exception {
-        ChannelService target = new SimpleChannelService();
         // Create proxy
-        ProxyFactory result = new ProxyFactory();
-        result.setTarget(target);
-        result.setInterfaces(new Class[]{clz, ChannelService.class});
-
-        result.addAdvisor(ExposeInvocationInterceptor.ADVISOR);
-
-
-        return (T) result.getProxy(classLoader);
+        Object obj = Proxy.newProxyInstance(classLoader, new Class[]{clz, ChannelService.class}, new SimpleChannelService(clz));
+        return (T) obj;
     }
 
     @Override

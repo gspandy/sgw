@@ -2,18 +2,18 @@ package cn.wanglin.sgw.exchange;
 
 import java.util.Map;
 
-public class SGWResponse {
+public class ExgResponse {
 
     String              bizCode;
     String              errorMsg;
     Map<String, Object> response;
 
-    public SGWResponse(String bizCode, String errorMsg) {
+    public ExgResponse(String bizCode, String errorMsg) {
         this.bizCode = bizCode;
         this.errorMsg = errorMsg;
     }
 
-    public SGWResponse(String bizCode,Map<String, Object> response) {
+    public ExgResponse(String bizCode, Map<String, Object> response) {
         this.bizCode = bizCode;
         this.response = response;
     }
