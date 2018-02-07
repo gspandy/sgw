@@ -3,18 +3,39 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sgw.iml" filepath="$PROJECT_DIR$/sgw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel.iml" group="sgw-channel" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_main.iml" group="sgw-channel" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-channel/sgw-channel_test.iml" group="sgw-channel" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client.iml" group="sgw-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_main.iml" group="sgw-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-client/sgw-client_test.iml" group="sgw-client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine.iml" group="sgw-engine" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_main.iml" group="sgw-engine" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-engine/sgw-engine_test.iml" group="sgw-engine" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service.iml" group="sgw-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_main.iml" group="sgw-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-service/sgw-service_test.iml" group="sgw-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-channel/sgw-exchange-channel.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-channel/sgw-exchange-channel.iml" group="sgw-exchange-channel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-channel/sgw-exchange-channel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-channel/sgw-exchange-channel_main.iml" group="sgw-exchange-channel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-channel/sgw-exchange-channel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-channel/sgw-exchange-channel_test.iml" group="sgw-exchange-channel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-client/sgw-exchange-client.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-client/sgw-exchange-client.iml" group="sgw-exchange-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-client/sgw-exchange-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-client/sgw-exchange-client_main.iml" group="sgw-exchange-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-client/sgw-exchange-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-client/sgw-exchange-client_test.iml" group="sgw-exchange-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-framework/sgw-exchange-framework.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-framework/sgw-exchange-framework.iml" group="sgw-exchange-framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-framework/sgw-exchange-framework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-framework/sgw-exchange-framework_main.iml" group="sgw-exchange-framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-framework/sgw-exchange-framework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-framework/sgw-exchange-framework_test.iml" group="sgw-exchange-framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-server/sgw-exchange-server.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-server/sgw-exchange-server.iml" group="sgw-exchange-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-server/sgw-exchange-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-server/sgw-exchange-server_main.iml" group="sgw-exchange-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-exchange-server/sgw-exchange-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-exchange-server/sgw-exchange-server_test.iml" group="sgw-exchange-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-client/sgw-flow-client.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-client/sgw-flow-client.iml" group="sgw-flow-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-client/sgw-flow-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-client/sgw-flow-client_main.iml" group="sgw-flow-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-client/sgw-flow-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-client/sgw-flow-client_test.iml" group="sgw-flow-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-engine.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-engine.iml" group="sgw-flow-engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-engine/sgw-flow-engine_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-engine/sgw-flow-engine_main.iml" group="sgw-flow-engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-engine/sgw-flow-engine_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-engine/sgw-flow-engine_test.iml" group="sgw-flow-engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-server/sgw-flow-server.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-server/sgw-flow-server.iml" group="sgw-flow-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-server/sgw-flow-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-server/sgw-flow-server_main.iml" group="sgw-flow-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-flow-server/sgw-flow-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-flow-server/sgw-flow-server_test.iml" group="sgw-flow-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-client/sgw-route-client.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-client/sgw-route-client.iml" group="sgw-route-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-client/sgw-route-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-client/sgw-route-client_main.iml" group="sgw-route-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-client/sgw-route-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-client/sgw-route-client_test.iml" group="sgw-route-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-framework/sgw-route-framework.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-framework/sgw-route-framework.iml" group="sgw-route-framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-framework/sgw-route-framework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-framework/sgw-route-framework_main.iml" group="sgw-route-framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-framework/sgw-route-framework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-framework/sgw-route-framework_test.iml" group="sgw-route-framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-server/sgw-route-server.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-server/sgw-route-server.iml" group="sgw-route-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-server/sgw-route-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-server/sgw-route-server_main.iml" group="sgw-route-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sgw-route-server/sgw-route-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sgw-route-server/sgw-route-server_test.iml" group="sgw-route-server" />
     </modules>
   </component>
 </project>

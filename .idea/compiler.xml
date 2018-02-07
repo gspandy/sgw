@@ -8,6 +8,32 @@
       <module name="sgw-client_test" target="1.8" />
       <module name="sgw-engine_main" target="1.8" />
       <module name="sgw-engine_test" target="1.8" />
+      <module name="sgw-exchange-channel_main" target="1.8" />
+      <module name="sgw-exchange-channel_test" target="1.8" />
+      <module name="sgw-exchange-client_main" target="1.8" />
+      <module name="sgw-exchange-client_test" target="1.8" />
+      <module name="sgw-exchange-core_main" target="1.8" />
+      <module name="sgw-exchange-core_test" target="1.8" />
+      <module name="sgw-exchange-framework_main" target="1.8" />
+      <module name="sgw-exchange-framework_test" target="1.8" />
+      <module name="sgw-exchange-server_main" target="1.8" />
+      <module name="sgw-exchange-server_test" target="1.8" />
+      <module name="sgw-flow-client_main" target="1.8" />
+      <module name="sgw-flow-client_test" target="1.8" />
+      <module name="sgw-flow-engine_main" target="1.8" />
+      <module name="sgw-flow-engine_test" target="1.8" />
+      <module name="sgw-flow-server_main" target="1.8" />
+      <module name="sgw-flow-server_test" target="1.8" />
+      <module name="sgw-flow_main" target="1.8" />
+      <module name="sgw-flow_test" target="1.8" />
+      <module name="sgw-route-client_main" target="1.8" />
+      <module name="sgw-route-client_test" target="1.8" />
+      <module name="sgw-route-framework_main" target="1.8" />
+      <module name="sgw-route-framework_test" target="1.8" />
+      <module name="sgw-route-server_main" target="1.8" />
+      <module name="sgw-route-server_test" target="1.8" />
+      <module name="sgw-route_main" target="1.8" />
+      <module name="sgw-route_test" target="1.8" />
       <module name="sgw-service_main" target="1.8" />
       <module name="sgw-service_test" target="1.8" />
     </bytecodeTargetLevel>

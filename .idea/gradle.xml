@@ -10,10 +10,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/sgw-channel" />
             <option value="$PROJECT_DIR$/sgw-client" />
-            <option value="$PROJECT_DIR$/sgw-engine" />
-            <option value="$PROJECT_DIR$/sgw-service" />
+            <option value="$PROJECT_DIR$/sgw-exchange-channel" />
+            <option value="$PROJECT_DIR$/sgw-exchange-client" />
+            <option value="$PROJECT_DIR$/sgw-exchange-framework" />
+            <option value="$PROJECT_DIR$/sgw-exchange-server" />
+            <option value="$PROJECT_DIR$/sgw-flow-client" />
+            <option value="$PROJECT_DIR$/sgw-flow-engine" />
+            <option value="$PROJECT_DIR$/sgw-flow-server" />
+            <option value="$PROJECT_DIR$/sgw-route-client" />
+            <option value="$PROJECT_DIR$/sgw-route-framework" />
+            <option value="$PROJECT_DIR$/sgw-route-server" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
